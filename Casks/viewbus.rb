@@ -7,7 +7,7 @@ cask "viewbus" do
   desc "Azure Service Bus desktop manager with built-in MCP server"
   homepage "https://viewbus.app"
 
-  depends_on macos: ">= :big_sur"
+  depends_on maximum_macos: :big_sur
   depends_on arch: :arm64
 
   app "ViewBus.app"
