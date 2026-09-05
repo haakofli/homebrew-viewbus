@@ -1,6 +1,6 @@
 cask "viewbus" do
-  version "0.10.1"
-  sha256 "7c2eaf636fd010d738e51dea8b4babc90297076112d1094897e440c19c005c56"
+  version "0.10.2"
+  sha256 "22e41f17b778479f4643824a0b5a5cc25d30b2dcf447a4f5e742da97c55587e7"
 
   url "https://github.com/haakofli/viewbus-site/releases/download/v#{version}/ViewBus_#{version}_aarch64.dmg"
   name "ViewBus"
